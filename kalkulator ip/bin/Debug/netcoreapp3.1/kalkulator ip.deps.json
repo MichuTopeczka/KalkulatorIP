@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "kalkulator ip/1.0.0": {
+        "dependencies": {
+          "IPNetwork2": "2.5.318"
+        },
+        "runtime": {
+          "kalkulator ip.dll": {}
+        }
+      },
+      "IPNetwork2/2.5.318": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Net.IPNetwork.dll": {
+            "assemblyVersion": "2.5.318.0",
+            "fileVersion": "2.5.318.0"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {}
+    }
+  },
+  "libraries": {
+    "kalkulator ip/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IPNetwork2/2.5.318": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WzKWP5/NrQNl1b9MGAU1kEZ9DU3gEtRBj3iZgEWt8oq7ebQ9m+X7dnn6autDuwUsx8h5Lj5mL8qmXTVtX9EExg==",
+      "path": "ipnetwork2/2.5.318",
+      "hashPath": "ipnetwork2.2.5.318.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    }
+  }
+}
